@@ -1,0 +1,12 @@
+#PBS -q express
+#PBS -l walltime=00:03:00,mem=2GB,ncpus=2
+#PBS -l wd
+#PBS -e ./batch/output/error_02.txt
+#PBS -o ./batch/output/output_02.txt
+module load openmpi
+mpirun -np 1 ./print
+mpirun -np 2 ./ass1 10 10 10
+mpirun -np 2 ./ass1 100 100 100
+mpirun -np 2 ./ass1 100 1000 1000
+mpirun -np 2 ./ass1 1000 100 1000
+mpirun -np 2 ./ass1 1000 1000 1000

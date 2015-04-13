@@ -1,0 +1,23 @@
+Implementation      M      N      K      NP   Time   
+-----------------------------------------------------------
+Replicated          1000   1000   1000   8    0.0230181
+SUMMA               1000   1000   1000   8    0.030925
+Replicated          1000   4000   4000   8    0.260908
+SUMMA               1000   4000   4000   8    0.499771
+Replicated          4000   1000   4000   8    0.315604
+SUMMA               4000   1000   4000   8    0.499255
+Replicated          4000   4000   4000   8    0.955716
+SUMMA               4000   4000   4000   8    1.79924
+======================================================================================
+			Resource Usage on 2015-04-13 04:28:01.665028:
+	JobId: 76978.r-man2  
+	Project: c07 
+	Exit Status: 0 (Linux Signal 0)
+	Service Units: 0.06
+	NCPUs Requested: 8				NCPUs Used: 8
+							CPU Time Used: 00:03:09
+	Memory Requested: 8gb 				Memory Used: 3gb
+							Vmem Used: 8gb
+	Walltime requested: 00:03:00 			Walltime Used: 00:00:29
+	jobfs request: 100mb				jobfs used: 1mb
+======================================================================================
